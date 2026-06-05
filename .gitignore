@@ -1,2 +1,16 @@
 # Virtual environment
 .venv
+
+# API
+apikey.env
+
+# Machine Learning Weights
+*.pt
+*.pth
+*.safetensors
+
+# Images
+phase_00/part_01/image.png
+
+# files
+phase_00/part_03/personal_readme.md
