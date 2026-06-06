@@ -14,14 +14,6 @@ And to run a script, we can't use the VS Code terminal, we have to use the Ubunt
 python3 parent_directory/python_script.py
 ```
 
-We did so many things and I'm too tired to write anything right now. Will recap tomorrow :( from beginning.
-
-Recap needed: 
-- how to open VS Code via Ubuntu to reduce cross-pollination conflict between Windows and WSL2. (https://gemini.google.com/app/71891f1c6e94441f)
-- how the program said no numpy module when I just installed it. This is because I had to reactivate the venv since the installed numpy was done in the previous Ubuntu terminal, which was done in the venv. 
-- how I need to install "unzip" with "sudo apt-get install unzip" because "curl -fsSL https://fnm.vercel.app/install | bash" can't install fnm because of missing dependencies, specifically, unzip and not curl.
-- problem with running cargo run -- (main.rs)
-
 AI engineering has 4 important layers:
 
 1. **System Foundation:** This includes OS, shell, git, editor, GPU drivers, etc.
