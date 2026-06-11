@@ -50,3 +50,8 @@ load_dotenv("apikey.env")
 hf_key = os.getenv("HF_KEY")
 ```
 
+Additionally, I also have to install `openai` library because OpenAI's syntax became the standard code format for AI, which HF also adopted.
+
+```bash
+uv pip install openai
+```
